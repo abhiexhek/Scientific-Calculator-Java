@@ -31,25 +31,25 @@ public class Main {
         int a, b;
         switch (choice) {
             case 1:
-                System.out.println("Enter two numbers: ");
+                System.out.print("Enter two numbers: ");
                 a = myObj.nextInt();
                 b = myObj.nextInt();
                 System.out.println("Sum is -: " + (a + b));
                 break;
             case 2:
-                System.out.println("Enter two numbers: ");
+                System.out.print("Enter two numbers: ");
                 a = myObj.nextInt();
                 b = myObj.nextInt();
                 System.out.println("Difference is -: " + (a - b));
                 break;
             case 3:
-                System.out.println("Enter two numbers: ");
+                System.out.print("Enter two numbers: ");
                 a = myObj.nextInt();
                 b = myObj.nextInt();
                 System.out.println("Multiplication is -: " + (a * b));
                 break;
             case 4:
-                System.out.println("Enter two numbers: ");
+                System.out.print("Enter two numbers: ");
                 a = myObj.nextInt();
                 b = myObj.nextInt();
                 if (b != 0) {
@@ -59,33 +59,33 @@ public class Main {
                 }
                 break;
             case 5:
-                System.out.println("Enter one number: ");
+                System.out.print("Enter one number: ");
                 a = myObj.nextInt();
                 System.out.println("Square is -: " + (a * a));
                 break;
             case 6:
-                System.out.println("Enter one number: ");
+                System.out.print("Enter one number: ");
                 a = myObj.nextInt();
                 System.out.println("Square root is -: " + sqrt(a));
                 break;
             case 7:
-                System.out.println("Enter one number: ");
+                System.out.print("Enter one number: ");
                 a = myObj.nextInt();
                 System.out.println("Cube is -: " + (a * a * a));
                 break;
             case 8:
-                System.out.println("Enter one number: ");
+                System.out.print("Enter one number: ");
                 a = myObj.nextInt();
                 System.out.println("Cube root is -: " + cbrt(a));
                 break;
             case 9:
-                System.out.println("Enter two numbers: ");
+                System.out.print("Enter two numbers: ");
                 a = myObj.nextInt();
                 b = myObj.nextInt();
                 System.out.println("Power is -: " + pow(a, b));
                 break;
             case 10:
-                System.out.println("Enter one number: ");
+                System.out.print("Enter one number: ");
                 a = myObj.nextInt();
                 int fact = 1;
                 for (int i = 1; i <= a; i++) {
@@ -94,22 +94,22 @@ public class Main {
                 System.out.println("Factorial is -: " + fact);
                 break;
             case 11:
-                System.out.println("Enter angle in degrees: ");
+                System.out.print("Enter angle in degrees: ");
                 a = myObj.nextInt();
                 System.out.println("Sin value is -: " + sin(toRadians(a)));
                 break;
             case 12:
-                System.out.println("Enter angle in degrees: ");
+                System.out.print("Enter angle in degrees: ");
                 a = myObj.nextInt();
                 System.out.println("Cos value is -: " + cos(toRadians(a)));
                 break;
             case 13:
-                System.out.println("Enter angle in degrees: ");
+                System.out.print("Enter angle in degrees: ");
                 a = myObj.nextInt();
                 System.out.println("Tan value is -: " + tan(toRadians(a)));
                 break;
             case 14:
-                System.out.println("Enter angle in degrees: ");
+                System.out.print("Enter angle in degrees: ");
                 a = myObj.nextInt();
                 if (tan(toRadians(a)) != 0) {
                     System.out.println("Cot value is -: " + (1 / tan(toRadians(a))));
@@ -118,7 +118,7 @@ public class Main {
                 }
                 break;
             case 15:
-                System.out.println("Enter angle in degrees: ");
+                System.out.print("Enter angle in degrees: ");
                 a = myObj.nextInt();
                 if (cos(toRadians(a)) != 0) {
                     System.out.println("Sec value is -: " + (1 / cos(toRadians(a))));
@@ -127,7 +127,7 @@ public class Main {
                 }
                 break;
             case 16:
-                System.out.println("Enter angle in degrees: ");
+                System.out.print("Enter angle in degrees: ");
                 a = myObj.nextInt();
                 if (sin(toRadians(a)) != 0) {
                     System.out.println("Cosec value is -: " + (1 / sin(toRadians(a))));
@@ -136,12 +136,12 @@ public class Main {
                 }
                 break;
             case 17:
-                System.out.println("Enter one number: ");
+                System.out.print("Enter one number: ");
                 a = myObj.nextInt();
                 System.out.println("Log value is -: " + log10(a));
                 break;
             case 18:
-                System.out.println("Enter one number: ");
+                System.out.print("Enter one number: ");
                 a = myObj.nextInt();
                 System.out.println("Natural Log (ln) value is -: " + log(a));
                 break;
